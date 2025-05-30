@@ -1,0 +1,120 @@
+.checkout-page {
+  background-color: #10131c;
+  color: white;
+  padding: 1.5rem;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.payment-method {
+  background-color: #1c1f2e;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.change-btn {
+  background: none;
+  color: #bbb;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.card-display {
+  background: linear-gradient(135deg, #3a80f6, #5bd6e2);
+  padding: 1rem;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-logo {
+  font-size: 1.5rem;
+}
+
+.balance {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.payment-details label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.payment-details input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #2a2d3e;
+  color: white;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.row div {
+  flex: 1;
+}
+
+.pay-button {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.8rem;
+  background-color: #3a80f6;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pay-button span {
+  float: right;
+}
+
+.popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3a80f6;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.eticket-btn {
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
