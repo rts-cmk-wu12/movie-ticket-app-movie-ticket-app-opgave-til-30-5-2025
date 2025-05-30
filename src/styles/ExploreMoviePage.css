@@ -1,0 +1,56 @@
+.explore-page {
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.tabs button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #2c2c2c;
+  color: white;
+  border-radius: 5px;
+}
+
+.tabs .active {
+  background: #007BFF;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 0.5rem;
+}
+
+.movie-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.movie-card {
+  width: 20%;
+  /* max-width: 200px; */
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.movie-card img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.rating {
+  color: gold;
+}

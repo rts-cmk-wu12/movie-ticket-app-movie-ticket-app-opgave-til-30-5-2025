@@ -1,0 +1,45 @@
+.details-page {
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poster {
+  width: 60%; 
+  max-width: 300px;
+  display: block;
+  margin: 1rem auto; 
+  border-radius: 12px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tags span {
+  background: #2c2c2c;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.overview {
+  margin-bottom: 1rem;
+}
+
+.book-button {
+  width: 100%;
+  padding: 1rem;
+  background: #007BFF;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+}
